@@ -32,7 +32,7 @@
   <?php
   $anonascimento=2003;
   $anoatual=2024;
-  $resultado=$anonascimento-$anoatual;
+  $resultado=$anoatual-$anonascimento;
   echo "<h3>Minha idade é $resultado</h3>";
   ?>
   <h2>3 - Conversor de Temperatura</h2>
