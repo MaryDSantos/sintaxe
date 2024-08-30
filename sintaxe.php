@@ -110,7 +110,7 @@
   <h2>10 - Contagem do While</h2>
   <?php
         $i = 1;
-        while($i<10)
+        while($i<11)
         {
             echo "<h3> $i </h3>";
             $i++;
