@@ -13,19 +13,19 @@
   $operacao="soma";
   if($operacao=="soma"){
     $resultado=$numero1+$numero2;
-    echo "O resultado é $resultado";
+    echo "<h3>O resultado é $resultado</h3>";
   }
   else if($operacao=="divisão"){
     $resultado=$numero1/$numero2;
-    echo "O resultado é $resultado";
+    echo "<h3>O resultado é $resultado</h3>";
   }
   else if($operacao=="subtração"){
     $resultado=$numero1-$numero2;
-    echo "O resultado é $resultado";
+    echo "<h3>O resultado é $resultado</h3>";
   }
   else if($operacao=="multiplicação"){
     $resultado=$numero1*$numero2;
-    echo "O resultado é $resultado";
+    echo "<h3>O resultado é $resultado</h3>";
   }
   ?>
   <h2>2 - Calculadora de Idade</h2>
@@ -104,7 +104,7 @@
   <?php
         $senha = "Mariana";
         if(strlen($senha) < 8 ){
-        echo "<h3>Sua senha tem menos que 8 caracteres".strlen($nome)."</h3>";
+        echo "<h3>Sua senha tem menos que 8 caracteres ".strlen($senha)."</h3>";
         }
     ?>
   <h2>10 - Contagem do While</h2>
@@ -124,16 +124,16 @@
         $soma=$soma+$numero;
         $numero++;
       }
-      echo "O resultado da soma é $soma";
+      echo "<h3>O resultado da soma é $soma</h3>";
   ?>
   <h2>12 - Tabada com For</h2>
     <?php
       $tabuada=5;
-      echo "Tabuada do $tabuada:\n\n";
+      echo "<h3>Tabuada do $tabuada:<br></h3>";
       for($i=1;$i<=10;$i++){
         $resultado = $tabuada * $i;
-
-        echo "$resultado x $i = $resultado\n";
+       echo "<h3>$tabuada x $i = $resultado</h3>";
+       echo "<br>";
       }
     ?>
   <h2>13 - Fatorial com For</h2>
@@ -145,14 +145,14 @@
         $fatorial = $fatorial * $i;
       }
 
-      echo "O fatorial de $numero é $fatorial";
+      echo "<h3>O fatorial de $numero é $fatorial</h3>";
     ?>
   <h2>14 - Números Pares com For</h2>
   <?php
-    echo "Os numeros pares de 1 a 50 é:\n\n";
+    echo "<h3>Os numeros pares de 1 a 50 é:</h3>";
     for($i=1;$i<=50;$i++){
       if($i%2==0){
-        echo "$i\n";
+        echo "<h3>$i\n</h3>";
       }
     }
   ?>
